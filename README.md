@@ -7,8 +7,7 @@
 pkg update && pkg upgrade
 pkg install python
 pkg install git
-rm -rf OBF-PY3
-python3 -m pip install rich
+python3 -m pip install rich requests
 git clone https://github.com/Xenzi-XN1/Tools-Spm
 cd Tools-Spm
 python spm.py
